@@ -16,5 +16,7 @@ def nota_mas_alta(data)
   print data.max
 end
 
-nota_mas_alta(data[3])
+result = nota_mas_alta(data[3])
+
+File.write['resultado.data', result]
 
